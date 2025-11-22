@@ -1,0 +1,27 @@
+{
+  "name": "Public-Transportation-Analysis",
+  "version": "1.0.0",
+  "description": "Public transport vehicle tracking cron job",
+  "main": "main.ts",
+  "scripts": {
+    "start": "node dist/main.js",
+    "build": "tsc",
+    "dev": "ts-node main.ts",
+    "prestart": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "luxon": "^3.4.4",
+    "pg": "^8.11.3"
+  },
+  "devDependencies": {
+    "@types/luxon": "^3.7.1",
+    "@types/node": "^20.11.5",
+    "@types/pg": "^8.10.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
